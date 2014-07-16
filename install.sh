@@ -1,6 +1,6 @@
 set -e
 
-sudo apt-get install zsh
+sudo apt-get install zsh < echo 'y';
 
 if [ ! -n "$ZSH" ]; then
   ZSH=~/.oh-my-zsh
