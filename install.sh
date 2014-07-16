@@ -1,5 +1,7 @@
 set -e
 
+apt-get install zsh
+
 if [ ! -n "$ZSH" ]; then
   ZSH=~/.oh-my-zsh
 fi
